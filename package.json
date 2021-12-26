@@ -10,9 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vercel/node": "^1.12.1"
+    "@vercel/node": "^1.12.1",
+    "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "firebase": "^9.6.1",
+    "firebase-admin": "^10.0.1",
     "randomstring": "^1.2.1"
   }
 }

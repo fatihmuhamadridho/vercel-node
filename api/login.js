@@ -21,7 +21,6 @@ module.exports = (req, res) => {
     } else if (req.method === 'POST') {
         const { email, password } = req.body;
 
-        const filePath = buildDataPath();
         const data = extractData(filePath);
 
         const findUser = data.users.findIndex(
